@@ -34,4 +34,4 @@ def create_timed_rotating_log(path: str) -> logging.Logger:
     return get_logger
 
 
-logger: logging.Logger = create_timed_rotating_log("../logs/current_log.log")
+logger: logging.Logger = create_timed_rotating_log("utils/logs/current_log.log")
