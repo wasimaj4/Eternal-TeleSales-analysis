@@ -51,3 +51,6 @@ ignore = ["F405" , "E501", "N812"]
 quote-style = "double"
 indent-style = "tab"
 docstring-code-format = false
+
+[tool.ruff.lint.flake8-type-checking]
+strict = true

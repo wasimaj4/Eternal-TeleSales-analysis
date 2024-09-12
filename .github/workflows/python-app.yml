@@ -31,7 +31,6 @@ jobs:
       run: |
         ruff check src --fix --output-format=github
         ruff format src
-        ruff check src
 
     - name: Run type checks
       run: |
