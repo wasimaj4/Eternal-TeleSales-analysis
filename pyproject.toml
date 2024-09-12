@@ -54,3 +54,6 @@ docstring-code-format = false
 
 [tool.ruff.lint.flake8-type-checking]
 strict = true
+
+[project.scripts]
+sales-data = "main:main"
