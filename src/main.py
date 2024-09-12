@@ -75,10 +75,8 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
     customer_loyalty_df = extra_insight_two(df_work_info, df_personal, df_product)
     save_df_to_csv(customer_loyalty_df, "extra_insight_two.csv")
 
-    logger.info("Analysis completed. Returning results.")
-    return (it_df.show(), marketing_df.show(), sales_breakdown_df.show(), top_employees_df.show(),
-            top_products_nl_df.show(), best_salesperson_df.show(), area_efficiency_df.show(),
-            customer_loyalty_df.show())
+    logger.info("Analysis completed.")
+
 if __name__ == "__main__":
     logger.info("Launching the application...")
     file1 = r"data_setes\dataset_one.csv"

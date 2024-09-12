@@ -9,7 +9,6 @@ description = "An extremely fast marketing analyzer"
 authors = [{ name = "Wasim Majanni", email = "waseemaj4@gmail.com" }]
 readme = "README.md"
 requires-python = ">=3.10"
-license = { file = "LICENSE" }
 keywords = [
   "marketing"
 ]

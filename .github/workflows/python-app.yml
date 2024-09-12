@@ -38,8 +38,7 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest
-
+        PYTHONPATH=./src pytest
     - name: Build distribution
       run: |
         python -m build
