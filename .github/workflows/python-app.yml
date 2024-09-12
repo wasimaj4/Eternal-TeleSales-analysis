@@ -39,9 +39,7 @@ jobs:
     - name: Run tests
       run: |
         pytest
-    - name: Run sales-data
-      run: |
-          sales-data
+
     - name: Build distribution
       run: |
         python -m build
@@ -53,3 +51,7 @@ jobs:
         path: |
           dist/*.tar.gz
           dist/*.whl
+
+    - name: Run sales-data
+      run: |
+          sales-data
