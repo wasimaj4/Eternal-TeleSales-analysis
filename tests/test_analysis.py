@@ -4,14 +4,14 @@ package_path = "../src"
 os.environ["src"] = package_path
 from pyspark.sql import SparkSession
 from chispa.dataframe_comparer import *
-from src.analysis.it_data import it_data
-from src.analysis.marketing_address_info import marketing_address_info
-from src.analysis.department_breakdown import department_breakdown
-from src.analysis.top_3 import top_3
-from src.analysis.top_3_most_sold_per_department_nl import top_3_most_sold_per_department_netherlands
-from src.analysis.best_salesperson import best_salesperson
-from src.analysis.extra_insight_one import extra_insight_one
-from src.analysis.extra_insight_two import extra_insight_two
+from ..src.analysis.it_data import it_data
+from ..src.analysis.marketing_address_info import marketing_address_info
+from ..src.analysis.department_breakdown import department_breakdown
+from ..src.analysis.top_3 import top_3
+from ..src.analysis.top_3_most_sold_per_department_nl import top_3_most_sold_per_department_netherlands
+from ..src.analysis.best_salesperson import best_salesperson
+from ..src.analysis.extra_insight_one import extra_insight_one
+from ..src.analysis.extra_insight_two import extra_insight_two
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType, LongType, DoubleType
 
 from src.utils.log_manager import logger
