@@ -1,0 +1,54 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
+
+name: Python application
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.5'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+
+    - name: Lint and format code (with fixes)
+      run: |
+        ruff check src --fix --output-format=github
+        ruff format src 
+
+    - name: Run type checks
+      run: |
+        mypy src
+
+    - name: Run tests
+      run: |
+        pytest
+
+    - name: Build distribution
+      run: |
+        python -m build
+
+    - name: Upload distribution
+      uses: actions/upload-artifact@v3
+      with:
+        name: distribution
+        path: |
+          dist/*.tar.gz
+          dist/*.whl
