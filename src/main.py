@@ -81,8 +81,8 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
             customer_loyalty_df.show())
 if __name__ == "__main__":
     logger.info("Launching the application...")
-    file1 = r"C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\data_setes\dataset_one.csv"
-    file2 = r"C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\data_setes\dataset_two.csv"
-    file3 = r"C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\data_setes\dataset_three.csv"
+    file1 = r"data_setes\dataset_one.csv"
+    file2 = r"data_setes\data_setes\dataset_two.csv"
+    file3 = r"data_setes\dataset_three.csv"
     analysis(file1, file2, file3)
     logging.info("Eterna Analysis application finished execution.")
