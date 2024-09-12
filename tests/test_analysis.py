@@ -1,3 +1,5 @@
+import sys
+import os
 from pyspark.sql import SparkSession
 from chispa.dataframe_comparer import *
 from src.analysis.it_data import it_data
@@ -9,8 +11,7 @@ from src.analysis.best_salesperson import best_salesperson
 from src.analysis.extra_insight_one import extra_insight_one
 from src.analysis.extra_insight_two import extra_insight_two
 from pyspark.sql.types import StructType, StructField, IntegerType, StringType, LongType, DoubleType
-import sys
-import os
+
 from src.utils.log_manager import logger
 
 os.environ["PYSPARK_PYTHON"] = sys.executable
