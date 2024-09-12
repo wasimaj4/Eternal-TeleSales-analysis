@@ -1,6 +1,6 @@
 import logging
 from logging.handlers import TimedRotatingFileHandler
-
+import os
 
 def create_timed_rotating_log(path: str) -> logging.Logger:
     """
@@ -33,5 +33,8 @@ def create_timed_rotating_log(path: str) -> logging.Logger:
 
     return get_logger
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
-logger: logging.Logger = create_timed_rotating_log("utils/logs/current_log.log")
+# Construct the path to the log file relative to the current file
+log_file = os.path.join(current_dir, "..", "utils", "logs", "current_log.log")
+logger: logging.Logger = create_timed_rotating_log(log_file)
