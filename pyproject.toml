@@ -39,3 +39,17 @@ dependencies = {file = ["requirements.txt"]}
 pythonpath = [
   "src","src/utils"
 ]
+
+
+[tool.ruff.lint]
+select = ["E", "F" ,"I" , "N"]
+#ignore = ["F405" , "E501", "N812"]
+
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "tab"
+docstring-code-format = true
