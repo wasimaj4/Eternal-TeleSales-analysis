@@ -15,7 +15,7 @@ def top_3_most_sold_per_department_netherlands(df_work_info: DataFrame, df_produ
     :param df_product: DataFrame containing product sales information.
     :type df_product: pyspark.sql.DataFrame
     :return: DataFrame with top 3 most sold products per department in the Netherlands,
-             including area, rank, product sold, and total quantity sold.
+    including area, rank, product sold, and total quantity sold.
     :rtype: pyspark.sql.DataFrame
 
     :Example:

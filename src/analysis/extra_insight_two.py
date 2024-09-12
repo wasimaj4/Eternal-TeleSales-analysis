@@ -17,7 +17,7 @@ def extra_insight_two(df_work_info: DataFrame, df_personal: DataFrame, df_produc
     :param df_product: DataFrame containing product sales information.
     :type df_product: pyspark.sql.DataFrame
     :return: DataFrame with customer loyalty information, including name, area, company,
-             repeat sales, total sales, and customer loyalty score.
+    repeat sales, total sales, and customer loyalty score.
     :rtype: pyspark.sql.DataFrame
 
     :Example:
