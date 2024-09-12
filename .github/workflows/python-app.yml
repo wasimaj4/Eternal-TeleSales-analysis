@@ -38,7 +38,7 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest --import-mode=append
+        python -m pytest
     - name: Build distribution
       run: |
         python -m build
