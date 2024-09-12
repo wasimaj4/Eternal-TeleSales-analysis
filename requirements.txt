@@ -7,5 +7,3 @@ build
 mypy
 pyspark~=3.5.1
 
-pyspark-stubs~=3.0.0.post3
-analysis~=0.1.7
