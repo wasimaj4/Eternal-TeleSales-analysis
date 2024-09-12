@@ -5,3 +5,4 @@ ruff
 chispa
 chispa~=0.10.1
 build
+mypy
