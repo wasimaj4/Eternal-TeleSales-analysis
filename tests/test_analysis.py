@@ -1,5 +1,7 @@
 import sys
 import os
+package_path = "../src"
+os.environ["src"] = package_path
 from pyspark.sql import SparkSession
 from chispa.dataframe_comparer import *
 from src.analysis.it_data import it_data
