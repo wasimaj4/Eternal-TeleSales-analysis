@@ -38,7 +38,7 @@ jobs:
 
     - name: Run tests
       run: |
-        python -m pytest
+        PYTHONPATH=MyProject pytest
     - name: Build distribution
       run: |
         python -m build
