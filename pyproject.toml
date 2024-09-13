@@ -58,13 +58,13 @@ docstring-code-format = false
 sales-data = "src.main:main"
 
 
+[tool.mypy]
+ignore_missing_imports = true
 
+[[tool.mypy.overrides]]
+module = "pyspark.*"
+ignore_missing_imports = true
 
-[mypy]
-ignore_missing_imports = True
-
-[mypy-pyspark.*]
-ignore_missing_imports = True
-
-[mypy-chispa.*]
-ignore_missing_imports = True
+[[tool.mypy.overrides]]
+module = "chispa.*"
+ignore_missing_imports = true
