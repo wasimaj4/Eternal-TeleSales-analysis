@@ -9,8 +9,3 @@ repos:
     rev: v0.0.270
     hooks:
     -   id: ruff
-
--   repo: https://github.com/MrPowers/chispa
-    rev: v0.10.1
-    hooks:
-    -   id: pytest
