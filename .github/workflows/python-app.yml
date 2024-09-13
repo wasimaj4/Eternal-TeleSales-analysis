@@ -79,3 +79,6 @@ jobs:
         python -c "import src; print(src.__file__)"
         python -c "from src.main import main; main()"
       working-directory: ${{ github.workspace }}
+    - name: Run script
+      run: |
+        python src/main.py
