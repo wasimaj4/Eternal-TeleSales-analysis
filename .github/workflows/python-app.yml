@@ -67,9 +67,15 @@ jobs:
       run: |
           pip install -e .
 
+#    - name: Run sales-data
+#      run: |
+#          python -c "import sys; print(sys.path)"
+#          python -c "import src; print(src.__file__)"
+#          sales-data
+#          working-directory: ${{ github.workspace }}
     - name: Run sales-data
       run: |
-          python -c "import sys; print(sys.path)"
-          python -c "import src; print(src.__file__)"
-          sales-data
-          working-directory: ${{ github.workspace }}
+        python -c "import sys; print(sys.path)"
+        python -c "import src; print(src.__file__)"
+        python -c "from src.main import main; main()"
+      working-directory: ${{ github.workspace }}
