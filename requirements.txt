@@ -2,7 +2,6 @@ pandas~=2.2.2
 pytest
 ruff
 chispa~=0.10.1
-chispa~=0.10.1
 build
 mypy
 pyspark~=3.5.1
