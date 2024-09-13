@@ -79,14 +79,15 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
 
 def main():
     logger.info("Launching the application...")
-    file1 = r"data_sets/dataset_one.csv"
-    file2 = r"data_sets/dataset_two.csv"
-    file3 = r"data_sets/dataset_three.csv"
+    file1 = r"..data_sets/dataset_one.csv"
+    file2 = r"..data_sets/dataset_two.csv"
+    file3 = r"..data_sets/dataset_three.csv"
     analysis(file1, file2, file3)
     logging.info("Eterna Analysis application finished execution.")
 
 if __name__ == "__main__":
     main()
+
 
 
 
