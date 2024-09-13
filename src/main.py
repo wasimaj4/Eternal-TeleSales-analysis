@@ -1,7 +1,7 @@
 from pyspark.sql import SparkSession
 import logging
+import os
 import sys
-sys.path.insert(0, '../src')
 from analysis.it_data import it_data
 from analysis.marketing_address_info import marketing_address_info
 from analysis.department_breakdown import department_breakdown
@@ -12,8 +12,8 @@ from analysis.extra_insight_one import extra_insight_one
 from analysis.extra_insight_two import extra_insight_two
 from utils.writer_csv import save_df_to_csv
 from src.utils.log_manager import logger
-import os
-
+os.environ["PYSPARK_PYTHON"] = sys.executable
+os.environ["PYSPARK_DRIVER_PYTHON"] = sys.executable
 
 def analysis(prod_info: str, seller_info: str, buyer_info: str):
     """

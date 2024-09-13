@@ -40,19 +40,19 @@ jobs:
     - name: Run type checks
       run: |
         source venv/bin/activate
-        pip install mypy
         mypy src
 
     - name: Run tests
       run: |
         source venv/bin/activate
-        pip install pytest
         pytest
+
+    - name: Run pre-commit hooks
+      uses: pre-commit/action@v3.0.0
 
     - name: Build distribution
       run: |
         source venv/bin/activate
-        pip install build
         python -m build
 
     - name: Upload distribution

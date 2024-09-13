@@ -56,3 +56,15 @@ docstring-code-format = false
 
 [project.scripts]
 sales-data = "src.main:main"
+
+
+
+
+[mypy]
+ignore_missing_imports = True
+
+[mypy-pyspark.*]
+ignore_missing_imports = True
+
+[mypy-chispa.*]
+ignore_missing_imports = True
