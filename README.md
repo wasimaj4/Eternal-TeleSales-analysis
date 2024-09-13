@@ -2,8 +2,7 @@
 
 ## Overview
 
-This project contains a set of PySpark-based data analysis functions for processing and analyzing sales and employee data. It includes various analyses such as IT data extraction, marketing address information, department breakdowns, top performers, and more.
-
+This project is a comprehensive data analysis solution for EternalTeleSales Fran van Seb Group, a telemarketing company specializing in various areas. The application processes three distinct datasets to generate valuable insights for the management team and stakeholders.
 ## Table of Contents
 
 1. [Requirements](#requirements)
