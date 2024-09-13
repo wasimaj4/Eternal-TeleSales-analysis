@@ -1,4 +1,4 @@
-
+repos:
 -   repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.3.0
     hooks:
@@ -9,7 +9,8 @@
     rev: v0.0.270
     hooks:
     -   id: ruff
+
 -   repo: https://github.com/MrPowers/chispa
     rev: v0.10.1
     hooks:
-        id: pytest
+    -   id: pytest
