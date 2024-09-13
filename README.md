@@ -18,16 +18,20 @@ This project contains a set of PySpark-based data analysis functions for process
 
 ## Requirements
 
-- Python 3.7+
-- PySpark 3.0+
+- Python 3.10
+- PySpark 2.51+
 - chispa (for testing)
-
+- pytest
+- ruff
+- build
+- mypy
+- pre-commit
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/eterna-analysis.git
-   cd eterna-analysis
+   git clone https://github.com/wasimaj4/Eternal-TeleSales-analysis.git
+   cd Eternal-TeleSales-analysis
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -121,21 +125,12 @@ python -m pytest tests/test_analysis.py
 4. `top_3`: Identifies top 3 performers in each department.
 5. `top_3_most_sold_per_department_netherlands`: Analyzes top 3 most sold products per department in the Netherlands.
 6. `best_salesperson`: Determines the best salesperson.
-7. `extra_insight_one`: Provides additional insight (details to be added).
-8. `extra_insight_two`: Provides another additional insight (details to be added).
+7. `extra_insight_one`: Provides additional insight 
+8. `extra_insight_two`: Provides another additional insight 
 
 ## Logging
 
-The project uses Python's built-in logging module. Logs are configured in `src/utils/log_manager.py`. By default, logs are written to both console and a file named `eterna_analysis.log`.
+The project uses Python's built-in logging module. Logs are configured in `src/utils/log_manager.py`. By default, logs are written to both console and a file named `utils.logs`.
 
-## Contributing
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and write tests if applicable.
-4. Run the tests to ensure everything is working.
-5. Submit a pull request with a clear description of your changes.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
