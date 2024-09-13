@@ -63,13 +63,13 @@ jobs:
           dist/*.tar.gz
           dist/*.whl
 
-    - name: Install the package
+    - name: Install the package in editable mode
       run: |
-        source venv/bin/activate
-        pip install .
+          pip install -e .
 
     - name: Run sales-data
       run: |
-        source venv/bin/activate
-        sales-data
-
+          python -c "import sys; print(sys.path)"
+          python -c "import src; print(src.__file__)"
+          sales-data
+          working-directory: ${{ github.workspace }}
