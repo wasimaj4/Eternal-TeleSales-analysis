@@ -27,24 +27,20 @@ jobs:
 
     - name: Install dependencies
       run: |
-        source venv/bin/activate
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
     - name: Lint and format code (with fixes)
       run: |
-        source venv/bin/activate
         ruff check src --fix
         ruff format src
 
     - name: Run type checks
       run: |
-        source venv/bin/activate
         mypy src
 
     - name: Run tests
       run: |
-        source venv/bin/activate
         pytest
 
     - name: Run pre-commit hooks
@@ -54,7 +50,6 @@ jobs:
 
     - name: Build distribution
       run: |
-        source venv/bin/activate
         python -m build
 
     - name: Upload distribution
@@ -75,12 +70,12 @@ jobs:
 #          python -c "import src; print(src.__file__)"
 #          sales-data
 #          working-directory: ${{ github.workspace }}
-    - name: Run sales-data
-      run: |
-        python -c "import sys; print(sys.path)"
-        python -c "import src; print(src.__file__)"
-        python -c "from src.main import main; main()"
-      working-directory: ${{ github.workspace }}
+#    - name: Run sales-data
+#      run: |
+#        python -c "import sys; print(sys.path)"
+#        python -c "import src; print(src.__file__)"
+#        python -c "from src.main import main; main()"
+#      working-directory: ${{ github.workspace }}
 
     - name: Run sales-data
       run: |
