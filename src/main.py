@@ -1,5 +1,7 @@
 from pyspark.sql import SparkSession
 import logging
+import sys
+sys.path.insert(0, '../src')
 from analysis.it_data import it_data
 from analysis.marketing_address_info import marketing_address_info
 from analysis.department_breakdown import department_breakdown
