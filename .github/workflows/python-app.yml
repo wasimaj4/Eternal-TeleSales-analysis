@@ -51,7 +51,9 @@ jobs:
         path: |
           dist/*.tar.gz
           dist/*.whl
-
+    - name: Install the package
+      run: |
+        pip install .
     - name: Run sales-data
       run: |
           sales-data
