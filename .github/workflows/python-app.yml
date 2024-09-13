@@ -81,5 +81,5 @@ jobs:
       working-directory: ${{ github.workspace }}
     - name: Run script
       run: |
-        export PYTHONPATH=$PYTHONPATH:$(pwd)
+        set PYTHONPATH="${PYTHONPATH}:$(pwd)"
         python -m src/main
