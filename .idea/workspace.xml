@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="382e612b-e773-4d8d-847b-41d9cc41f9ce" name="Changes" comment="Editing the workflow file" />
+    <list default="true" id="382e612b-e773-4d8d-847b-41d9cc41f9ce" name="Changes" comment="Editing Entry point" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +48,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Doctests in log_manager.executor": "Run",
     "Python tests.Doctests in main.executor": "Run",
     "Python tests.Python tests in test_analysis.py.executor": "Run",
     "Python.main.executor": "Run",
@@ -68,19 +69,22 @@
       <recent name="C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\src\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_analysis.py">
+  <component name="RunManager" selected="Python.__main__">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MyProject" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\src\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +104,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\src\main.py" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -127,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__main__" />
         <item itemvalue="Python tests.Python tests in test_analysis.py" />
-        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Doctests in main" />
       </list>
     </recent_temporary>
@@ -150,6 +154,7 @@
       <option name="presentableId" value="Default" />
       <updated>1726073529533</updated>
       <workItem from="1726073544811" duration="1113000" />
+      <workItem from="1726167657241" duration="15611000" />
     </task>
     <task id="LOCAL-00001" summary="it_data task">
       <option name="closed" value="true" />
@@ -383,7 +388,159 @@
       <option name="project" value="LOCAL" />
       <updated>1726166795250</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Editing the workflow file">
+      <option name="closed" value="true" />
+      <created>1726167692302</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1726167692302</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Editing the code">
+      <option name="closed" value="true" />
+      <created>1726168099105</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1726168099105</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Editing the toml file">
+      <option name="closed" value="true" />
+      <created>1726168483470</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1726168483470</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Editing the toml file">
+      <option name="closed" value="true" />
+      <created>1726169392169</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1726169392170</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Editing the toml file">
+      <option name="closed" value="true" />
+      <created>1726169595177</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1726169595178</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Editing the log_manager.py">
+      <option name="closed" value="true" />
+      <created>1726169907599</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1726169907599</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Editing the log_manager.py">
+      <option name="closed" value="true" />
+      <created>1726170754654</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1726170754655</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Adding linters">
+      <option name="closed" value="true" />
+      <created>1726170983535</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1726170983535</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Editing linters">
+      <option name="closed" value="true" />
+      <created>1726171175944</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1726171175944</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Editing linters">
+      <option name="closed" value="true" />
+      <created>1726171694208</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1726171694208</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Editing linters">
+      <option name="closed" value="true" />
+      <created>1726172404630</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1726172404630</updated>
+    </task>
+    <task id="LOCAL-00041" summary="adding Entry point">
+      <option name="closed" value="true" />
+      <created>1726173071376</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1726173071376</updated>
+    </task>
+    <task id="LOCAL-00042" summary="adding Entry point">
+      <option name="closed" value="true" />
+      <created>1726173208538</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1726173208538</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Editing Entry point">
+      <option name="closed" value="true" />
+      <created>1726173629414</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1726173629414</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Editing Entry point">
+      <option name="closed" value="true" />
+      <created>1726186872388</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1726186872388</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Editing Entry point">
+      <option name="closed" value="true" />
+      <created>1726187612484</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1726187612484</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Editing Entry point">
+      <option name="closed" value="true" />
+      <created>1726188349799</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1726188349799</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Editing Entry point">
+      <option name="closed" value="true" />
+      <created>1726189356641</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1726189356643</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Editing Entry point">
+      <option name="closed" value="true" />
+      <created>1726189570510</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1726189570510</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -410,11 +567,19 @@
     <MESSAGE value="Editing the requirements and workflow file" />
     <MESSAGE value="Editing the requirements" />
     <MESSAGE value="Editing the workflow file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing the workflow file" />
+    <MESSAGE value="Editing the code" />
+    <MESSAGE value="Editing the toml file" />
+    <MESSAGE value="Editing the log_manager.py" />
+    <MESSAGE value="Adding linters" />
+    <MESSAGE value="Editing linters" />
+    <MESSAGE value="adding Entry point" />
+    <MESSAGE value="Editing Entry point" />
+    <option name="LAST_COMMIT_MESSAGE" value="Editing Entry point" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MyProject$main.coverage" NAME="main Coverage Results" MODIFIED="1726162463388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MyProject$main.coverage" NAME="main Coverage Results" MODIFIED="1726168005543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/MyProject$.coverage" NAME=" Coverage Results" MODIFIED="1726162985499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/MyProject$Doctests_in_main.coverage" NAME="Doctests in main Coverage Results" MODIFIED="1726161465513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/MyProject$Doctests_in_log_manager.coverage" NAME="Doctests in log_manager Coverage Results" MODIFIED="1726167805608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/utils" />
+    <SUITE FILE_PATH="coverage/MyProject$Doctests_in_main.coverage" NAME="Doctests in main Coverage Results" MODIFIED="1726167911284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
   </component>
 </project>
