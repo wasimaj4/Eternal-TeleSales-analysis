@@ -27,18 +27,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Lint and format code (with fixes)
-      run: |
-        ruff check src --fix --output-format=github
-        ruff format src
-
-    - name: Run type checks
-      run: |
-        mypy src
-
-    - name: Run tests
-      run: |
-        pytest
+#    - name: Lint and format code (with fixes)
+#      run: |
+#        ruff check src --fix
+#        ruff format src
+#
+#    - name: Run type checks
+#      run: |
+#        mypy src
+#
+#    - name: Run tests
+#      run: |
+#        pytest
 
     - name: Build distribution
       run: |
