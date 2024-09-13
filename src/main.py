@@ -1,6 +1,5 @@
 from pyspark.sql import SparkSession
 import logging
-from src.utils.log_manager import logger
 from analysis.it_data import it_data
 from analysis.marketing_address_info import marketing_address_info
 from analysis.department_breakdown import department_breakdown
@@ -10,6 +9,8 @@ from analysis.best_salesperson import best_salesperson
 from analysis.extra_insight_one import extra_insight_one
 from analysis.extra_insight_two import extra_insight_two
 from utils.writer_csv import save_df_to_csv
+from src.utils.log_manager import logger
+import os
 
 
 def analysis(prod_info: str, seller_info: str, buyer_info: str):
@@ -35,6 +36,9 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
     >>> file3 = "path/to/dataset_three.csv"
     >>> analysis(file1, file2, file3)
     """
+    # current_dir = os.path.dirname(os.path.abspath(__file__))
+    # # Go up one level to the project root
+    # project_root = os.path.dirname(current_dir)
     logger.info("Starting Eterna Analysis")
     spark = SparkSession.builder.appName("EternaAnalysis").getOrCreate()
 

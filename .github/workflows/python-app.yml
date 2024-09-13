@@ -82,4 +82,4 @@ jobs:
     - name: Run script
       run: |
         export PYTHONPATH=$PYTHONPATH:$(pwd)
-        python src/main.py
+        python -m src/main.py
