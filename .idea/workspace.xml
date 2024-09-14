@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="382e612b-e773-4d8d-847b-41d9cc41f9ce" name="Changes" comment="Editing the output path" />
+    <list default="true" id="382e612b-e773-4d8d-847b-41d9cc41f9ce" name="Changes" comment="Editing the workflow">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,15 +161,7 @@
       <workItem from="1726190586866" duration="9003000" />
       <workItem from="1726300343370" duration="1146000" />
       <workItem from="1726302829105" duration="1333000" />
-      <workItem from="1726310706081" duration="6469000" />
-    </task>
-    <task id="LOCAL-00021" summary="Editing the workflow file">
-      <option name="closed" value="true" />
-      <created>1726164968836</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1726164969123</updated>
+      <workItem from="1726310706081" duration="7354000" />
     </task>
     <task id="LOCAL-00022" summary="Editing the workflow file">
       <option name="closed" value="true" />
@@ -553,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726333654586</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Editing the workflow">
+      <option name="closed" value="true" />
+      <created>1726334196478</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1726334196478</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -591,9 +593,9 @@
     <MESSAGE value="Editing entryPoint" />
     <MESSAGE value="Editing data path" />
     <MESSAGE value="Editing the code" />
-    <MESSAGE value="Editing the workflow" />
     <MESSAGE value="Editing the output path" />
-    <option name="LAST_COMMIT_MESSAGE" value="Editing the output path" />
+    <MESSAGE value="Editing the workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Editing the workflow" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MyProject$main.coverage" NAME="main Coverage Results" MODIFIED="1726198653941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
