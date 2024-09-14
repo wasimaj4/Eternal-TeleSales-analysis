@@ -86,9 +86,9 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
 
 def main():
     logger.info("Launching the application...")
-    file1 = r"data_sets/dataset_one.csv"
-    file2 = r"data_sets/dataset_two.csv"
-    file3 = r"data_sets/dataset_three.csv"
+    file1 = r"https://github.com/wasimaj4/MyProject/blob/05503e499c05d94a6b1d3fae9f1e7c3b45169d40/data_sets"
+    file2 = r"https://github.com/wasimaj4/MyProject/blob/05503e499c05d94a6b1d3fae9f1e7c3b45169d40/data_sets/dataset_two.csv"
+    file3 = r"https://github.com/wasimaj4/MyProject/blob/05503e499c05d94a6b1d3fae9f1e7c3b45169d40/data_sets/dataset_three.csv"
     analysis(file1, file2, file3)
     logger.info("Eterna Analysis application finished execution.")
 
