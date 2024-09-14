@@ -77,12 +77,13 @@ jobs:
 #        python -c "from src.main import main; main()"
 #      working-directory: ${{ github.workspace }}
 
-#    - name: Run sales-data
-#      run: |
-#        python -m src.main
-#      env:
-#        PYTHONPATH: ${{ github.workspace }}
-    - name: Run script
+    - name: Run sales-data
       run: |
         export PYTHONPATH="${PYTHONPATH}:$(pwd)"
         python -m src.main
+#      env:
+#        PYTHONPATH: ${{ github.workspace }}
+#    - name: Run script
+#      run: |
+#        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
+#        python -m src.main
