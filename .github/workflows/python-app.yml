@@ -30,6 +30,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Run pre-commit hooks
+      uses: pre-commit/action@v3.0.0
+      with:
+          extra_args: --files src/**/*
+
     - name: Lint and format code (with fixes)
       run: |
         ruff check src --fix
@@ -42,11 +47,6 @@ jobs:
     - name: Run tests
       run: |
         pytest
-
-    - name: Run pre-commit hooks
-      uses: pre-commit/action@v3.0.0
-      with:
-          extra_args: --files src/**/*
 
     - name: Build distribution
       run: |

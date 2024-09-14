@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="382e612b-e773-4d8d-847b-41d9cc41f9ce" name="Changes" comment="Editing the workflow">
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/logs/current_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/logs/current_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/writer_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/writer_csv.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/python-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/python-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wasim majanni/OneDrive/Desktop/DRJOB/Interviews prepare/ABN AMRO/codc-interviews/MyProject&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -160,6 +160,8 @@
       <workItem from="1726073544811" duration="1113000" />
       <workItem from="1726167657241" duration="15611000" />
       <workItem from="1726190586866" duration="9003000" />
+      <workItem from="1726300343370" duration="1146000" />
+      <workItem from="1726302829105" duration="1333000" />
     </task>
     <task id="LOCAL-00017" summary="Editing the workflow file">
       <option name="closed" value="true" />
