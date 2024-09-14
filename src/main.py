@@ -80,7 +80,7 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
 
     logger.info("Performing extra insight two analysis")
     customer_loyalty_df = extra_insight_two(df_work_info, df_personal, df_product)
-    save_df_to_csv(customer_loyalty_df, "extra_insight_two.csv")
+    save_df_to_csv(customer_loyalty_df)
 
     logger.info("Analysis completed.")
 
