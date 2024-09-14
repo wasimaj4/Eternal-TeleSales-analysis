@@ -23,5 +23,5 @@ def save_df_to_csv(df: DataFrame, file_path: str) -> None:
     >>> save_df_to_csv(df, "/path/to/output.csv")
     """
     logger.info(f"Saving DataFrame to CSV file: {file_path}")
-    df.coalesce(1).write.mode("overwrite").csv(f"EternalTeleSales analysis\\data_output\\{file_path}", header=True)
+    df.coalesce(1).write.mode("overwrite").csv(f"Eternal-TeleSales-analysis\\data_output\\{file_path}", header=True)
     logger.info(f"DataFrame successfully saved to {file_path}")
