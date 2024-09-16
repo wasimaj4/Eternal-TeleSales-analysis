@@ -1,0 +1,28 @@
+DataFrame successfully saved to top_3.csv
+Performing top 3 most sold products per department in Netherlands analysis
+Joining product and work info data
+Filtering data for the Netherlands
+Aggregating total quantity sold by department and product
+Ranking products within each department based on total quantity sold
+Selecting final columns for output
+Returning top 3 most sold products per department in the Netherlands
+Saving DataFrame to CSV file: top_3_most_sold_per_department_netherlands.csv
+DataFrame successfully saved to top_3_most_sold_per_department_netherlands.csv
+Performing best salesperson analysis
+Joining personal and product sales data
+Aggregating total sales by salesperson and country
+Ranking salespeople within each country based on total sales
+Selecting and formatting final columns
+Returning best salesperson for each country
+Saving DataFrame to CSV file: best_salesperson.csv
+DataFrame successfully saved to best_salesperson.csv
+Performing extra insight one analysis
+Joining product sales data with work information
+Calculating total successful calls and total calls made by country and area
+Computing success rate for each country and area
+Ranking areas within each country based on success rate
+Selecting final columns and rounding success rate
+Returning top 3 most efficient areas for each country
+Saving DataFrame to CSV file: extra_insight_one.csv
+DataFrame successfully saved to extra_insight_one.csv
+Performing extra insight two analysis
