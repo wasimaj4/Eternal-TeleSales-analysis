@@ -87,9 +87,9 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
             best_salesperson_df.show(), area_efficiency_df.show(), customer_loyalty_df.show())
 def main():
     logger.info("Launching the application...")
-    file1 = r"data_sets\dataset_one.csv"
-    file2 = r"data_sets\dataset_two.csv"
-    file3 = r"data_sets\dataset_three.csv"
+    file1 = r"data_sets/dataset_one.csv"
+    file2 = r"data_sets/dataset_two.csv"
+    file3 = r"data_sets/dataset_three.csv"
     analysis(file1, file2, file3)
     logger.info("Eterna Analysis application finished execution.")
 

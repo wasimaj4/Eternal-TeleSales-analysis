@@ -4,39 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="382e612b-e773-4d8d-847b-41d9cc41f9ce" name="Changes" comment="Editing the workflow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/best_salesperson.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/best_salesperson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/department_breakdown.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/department_breakdown.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/extra_insight_one.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/extra_insight_one.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/extra_insight_two.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/extra_insight_two.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/it_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/it_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/marketing_address_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/marketing_address_info.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/top_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/top_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/analysis/top_3_most_sold_per_department_nl.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/analysis/top_3_most_sold_per_department_nl.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/best_salesperson.csv/.part-00000-01f80af5-3671-4d46-b499-382ff88a0e1e-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/best_salesperson.csv/part-00000-01f80af5-3671-4d46-b499-382ff88a0e1e-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/department_breakdown.csv/.part-00000-cc19a6e6-49b8-4f86-aa0b-85c83e315085-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/department_breakdown.csv/part-00000-cc19a6e6-49b8-4f86-aa0b-85c83e315085-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/extra_insight_one.csv/.part-00000-c78b3d4a-56d7-4c60-a93b-bffc4a766c60-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/extra_insight_one.csv/part-00000-c78b3d4a-56d7-4c60-a93b-bffc4a766c60-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/extra_insight_two.csv/._SUCCESS.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/extra_insight_two.csv/.part-00000-143ebc88-b319-404e-81a6-8a335d6aa5b1-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/extra_insight_two.csv/_SUCCESS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/extra_insight_two.csv/part-00000-143ebc88-b319-404e-81a6-8a335d6aa5b1-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/it_data.csv/.part-00000-9675131c-e01f-48a3-8c80-642f338a1a86-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/it_data.csv/part-00000-9675131c-e01f-48a3-8c80-642f338a1a86-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/marketing_address_info.csv/.part-00000-4987c04b-f761-4621-9ba1-dcc2d18ef94c-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/marketing_address_info.csv/part-00000-4987c04b-f761-4621-9ba1-dcc2d18ef94c-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/top_3.csv/.part-00000-a93a8dcb-3a5d-45c1-b130-a08e33c74b6e-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/top_3.csv/part-00000-a93a8dcb-3a5d-45c1-b130-a08e33c74b6e-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/top_3_most_sold_per_department_netherlands.csv/.part-00000-ad1c1f46-47d2-4566-a4eb-28147427f5cd-c000.csv.crc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/data_output/top_3_most_sold_per_department_netherlands.csv/part-00000-ad1c1f46-47d2-4566-a4eb-28147427f5cd-c000.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/logs/current_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/logs/current_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/writer_csv.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/writer_csv.py" afterDir="false" />
-    </list>
+    <list default="true" id="382e612b-e773-4d8d-847b-41d9cc41f9ce" name="Changes" comment="Editing the workflow" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,23 +123,7 @@
       <workItem from="1726302829105" duration="1333000" />
       <workItem from="1726310706081" duration="8673000" />
       <workItem from="1726336938618" duration="977000" />
-      <workItem from="1726474463989" duration="18796000" />
-    </task>
-    <task id="LOCAL-00024" summary="Editing the workflow file">
-      <option name="closed" value="true" />
-      <created>1726165842517</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1726165842517</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Editing the workflow file">
-      <option name="closed" value="true" />
-      <created>1726166006216</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1726166006217</updated>
+      <workItem from="1726474463989" duration="19184000" />
     </task>
     <task id="LOCAL-00026" summary="Editing the workflow file">
       <option name="closed" value="true" />
@@ -549,7 +501,23 @@
       <option name="project" value="LOCAL" />
       <updated>1726336092486</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Editing the workflow">
+      <option name="closed" value="true" />
+      <created>1726505979465</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1726505979465</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Editing the workflow">
+      <option name="closed" value="true" />
+      <created>1726506086456</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1726506086456</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
