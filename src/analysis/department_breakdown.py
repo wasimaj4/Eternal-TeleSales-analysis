@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from pyspark.sql import DataFrame
 from pyspark.sql.types import DoubleType
-from src.utils.log_manager import logger
+from utils.log_manager import logger
 
 
 def department_breakdown(df_work_info: DataFrame, df_personal: DataFrame) -> DataFrame:
@@ -30,7 +30,7 @@ def department_breakdown(df_work_info: DataFrame, df_personal: DataFrame) -> Dat
 
     logger.info("Aggregating data by department")
     df_agg_breakdown = df_joined12.groupBy("area").agg(
-        F.sum("sales_amount").alias("total_sales"),
+        F.round(F.sum("sales_amount"),2).alias("total_sales"),
         F.sum("calls_successful").alias("total_calls_success"),
         F.sum("calls_made").alias("total_calls_made")
     )

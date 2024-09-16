@@ -1,7 +1,7 @@
 import pyspark.sql.functions as F
 from pyspark.sql import DataFrame, Window
 from pyspark.sql.types import DoubleType
-from src.utils.log_manager import logger
+from utils.log_manager import logger
 
 
 def extra_insight_one(df_work_info: DataFrame, df_product: DataFrame) -> DataFrame:

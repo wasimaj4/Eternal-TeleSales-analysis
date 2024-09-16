@@ -2,7 +2,7 @@ import logging
 import pyspark.sql.functions as F
 from pyspark.sql import DataFrame
 from pyspark.sql.types import DoubleType
-from src.utils.log_manager import logger
+from utils.log_manager import logger
 
 def it_data(df_work_info: DataFrame, df_personal: DataFrame) -> DataFrame:
     """

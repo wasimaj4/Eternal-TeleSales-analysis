@@ -1,6 +1,6 @@
 import pyspark.sql.functions as F
 from pyspark.sql import DataFrame
-from src.utils.log_manager import logger
+from utils.log_manager import logger
 
 def marketing_address_info(df_work_info: DataFrame, df_personal: DataFrame) -> DataFrame:
     """

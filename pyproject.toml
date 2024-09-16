@@ -54,8 +54,8 @@ docstring-code-format = false
 
 
 
-[project.scripts]
-sales-data = "src.main:main"
+#[project.scripts]
+#sales-data = "src.main:main"
 
 
 [tool.mypy]

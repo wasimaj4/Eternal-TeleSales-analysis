@@ -1,6 +1,6 @@
 import pyspark.sql.functions as F
 from pyspark.sql import DataFrame, Window
-from src.utils.log_manager import logger
+from utils.log_manager import logger
 
 def top_3_most_sold_per_department_netherlands(df_work_info: DataFrame, df_product: DataFrame) -> DataFrame:
     """

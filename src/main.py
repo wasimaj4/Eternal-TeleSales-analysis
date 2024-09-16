@@ -10,7 +10,7 @@ from analysis.best_salesperson import best_salesperson
 from analysis.extra_insight_one import extra_insight_one
 from analysis.extra_insight_two import extra_insight_two
 from utils.writer_csv import save_df_to_csv
-from src.utils.log_manager import logger
+from utils.log_manager import logger
 
 
 os.environ["PYSPARK_PYTHON"] = sys.executable
@@ -83,12 +83,13 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
     save_df_to_csv(customer_loyalty_df, "extra_insight_two.csv")
 
     logger.info("Analysis completed.")
-
+    return (it_df.show(), marketing_df.show(), sales_breakdown_df.show(), top_employees_df.show(), top_products_nl_df.show(),
+            best_salesperson_df.show(), area_efficiency_df.show(), customer_loyalty_df.show())
 def main():
     logger.info("Launching the application...")
-    file1 = r"data_sets/dataset_one.csv"
-    file2 = r"data_sets/dataset_two.csv"
-    file3 = r"data_sets/dataset_three.csv"
+    file1 = r"C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\data_sets\dataset_one.csv"
+    file2 = r"C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\data_sets\dataset_two.csv"
+    file3 = r"C:\Users\wasim majanni\OneDrive\Desktop\DRJOB\Interviews prepare\ABN AMRO\codc-interviews\MyProject\data_sets\dataset_three.csv"
     analysis(file1, file2, file3)
     logger.info("Eterna Analysis application finished execution.")
 
