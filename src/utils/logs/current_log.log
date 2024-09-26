@@ -1,12 +1,3 @@
-Launching the application...
-Starting Eterna Analysis
-Reading input CSV files
-Performing IT data analysis
-Joining work info and personal data
-Casting sales_amount to DoubleType
-Filtering for IT area and sorting by sales_amount
-Returning top 100 IT employees by sales amount
-Saving DataFrame to CSV file: it_data.csv
 DataFrame successfully saved to it_data.csv
 Performing marketing address info analysis
 Joining work info and personal data

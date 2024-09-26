@@ -68,8 +68,3 @@ jobs:
       run: |
         export PYTHONPATH="${PYTHONPATH}:$(pwd)"
         python -m src.main
-
-#    - name: Run script
-#      run: |
-#        export PYTHONPATH="${PYTHONPATH}:$(pwd)"
-#        python -m src.main

@@ -87,9 +87,12 @@ def analysis(prod_info: str, seller_info: str, buyer_info: str):
             best_salesperson_df.show(), area_efficiency_df.show(), customer_loyalty_df.show())
 def main():
     logger.info("Launching the application...")
-    file1 = r"data_sets/dataset_one.csv"
-    file2 = r"data_sets/dataset_two.csv"
-    file3 = r"data_sets/dataset_three.csv"
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(current_dir)
+    data_dir = os.path.join(project_root, "data_sets")
+    file1 = os.path.join(data_dir, "dataset_one.csv")
+    file2 = os.path.join(data_dir, "dataset_two.csv")
+    file3 = os.path.join(data_dir, "dataset_three.csv")
     analysis(file1, file2, file3)
     logger.info("Eterna Analysis application finished execution.")
 
