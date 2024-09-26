@@ -1,0 +1,67 @@
+Launching the application...
+Starting Eterna Analysis
+Reading input CSV files
+Performing IT data analysis
+Joining work info and personal data
+Casting sales_amount to DoubleType
+Filtering for IT area and sorting by sales_amount
+Returning top 100 IT employees by sales amount
+Saving DataFrame to CSV file: it_data.csv
+DataFrame successfully saved to it_data.csv
+Performing marketing address info analysis
+Joining work info and personal data
+Processing address information for Marketing employees
+Returning processed address information for Marketing employees
+Saving DataFrame to CSV file: marketing_address_info.csv
+DataFrame successfully saved to marketing_address_info.csv
+Performing department breakdown analysis
+Joining work info and personal data
+Aggregating data by department
+Calculating success rate
+Selecting final columns and casting to appropriate types
+Returning department-wise breakdown
+Saving DataFrame to CSV file: department_breakdown.csv
+DataFrame successfully saved to department_breakdown.csv
+Performing top 3 employees analysis
+Joining work info and personal data
+Calculating success rate for each employee
+Ranking employees within each department
+Filtering for employees with success rate above 75%
+Selecting and formatting final columns
+Returning top 3 employees per department
+Saving DataFrame to CSV file: top_3.csv
+DataFrame successfully saved to top_3.csv
+Performing top 3 most sold products per department in Netherlands analysis
+Joining product and work info data
+Filtering data for the Netherlands
+Aggregating total quantity sold by department and product
+Ranking products within each department based on total quantity sold
+Selecting final columns for output
+Returning top 3 most sold products per department in the Netherlands
+Saving DataFrame to CSV file: top_3_most_sold_per_department_netherlands.csv
+DataFrame successfully saved to top_3_most_sold_per_department_netherlands.csv
+Performing best salesperson analysis
+Joining personal and product sales data
+Aggregating total sales by salesperson and country
+Ranking salespeople within each country based on total sales
+Selecting and formatting final columns
+Returning best salesperson for each country
+Saving DataFrame to CSV file: best_salesperson.csv
+DataFrame successfully saved to best_salesperson.csv
+Performing extra insight one analysis
+Joining product sales data with work information
+Calculating total successful calls and total calls made by country and area
+Computing success rate for each country and area
+Ranking areas within each country based on success rate
+Selecting final columns and rounding success rate
+Returning top 3 most efficient areas for each country
+Saving DataFrame to CSV file: extra_insight_one.csv
+DataFrame successfully saved to extra_insight_one.csv
+Performing extra insight two analysis
+Joining work information and personal data
+Joining combined data with product sales data
+Calculating repeat sales and total sales
+Computing customer loyalty score
+Selecting and formatting final columns
+Returning customer loyalty data
+Saving DataFrame to CSV file: extra_insight_two.csv

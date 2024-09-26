@@ -1,0 +1,16 @@
+area,rank,name,sales_amount,success_rate
+Finance,1,Ceylin van Voorst,67153.61,95.0
+Finance,2,Giovanni Weerdenburg,43785.54,95.0
+Finance,3,Sanne Verbeeck,81272.93,94.94
+Games,1,Sven Lutterveld,99056.55,94.87
+Games,2,Naud Cornelisse,82889.32,94.12
+Games,3,Renske van der Hoeven,52193.46,94.12
+HR,1,Ashley Jonkman-de Gruijter,51414.91,94.74
+HR,2,Jayda Wilcken,90189.68,94.44
+HR,3,Norah Voortman,38607.71,94.12
+IT,1,Puck Tins,98552.73,95.0
+IT,2,Amy Roessink-van Beieren,86228.9,95.0
+IT,3,Rowan Mens,38577.47,94.83
+Marketing,1,Lara van Vlaanderen-van de Darnau,93065.36,95.0
+Marketing,2,Pieter de Gruson,81272.13,93.94
+Marketing,3,Siem Poncelet-de Gruil,91281.03,93.75
